@@ -1,3 +1,14 @@
+.foto-perfil {
+  width: 120px;              /* tamanho menor da foto */
+  height: 120px;
+  border-radius: 50%;        /* formato redondo */
+  object-fit: cover;         /* evita distorções */
+  border: 3px solid #0077b6; /* borda azul elegante */
+  display: block;
+  margin: 15px auto;         /* centraliza horizontalmente */
+}
+
+
 /* Reset simples */
 * {
   margin: 0;
