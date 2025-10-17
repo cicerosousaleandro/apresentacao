@@ -8,6 +8,28 @@
   margin: 15px auto;         /* centraliza horizontalmente */
 }
 
+.download-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.download-btn {
+    background-color: #0a192f; /* Azul marinho escuro */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn:hover {
+    background-color: #1f3b73; /* Azul mais claro no hover */
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(31, 59, 115, 0.6);
+}
+
 
 /* Reset simples */
 * {
